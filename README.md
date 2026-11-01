@@ -4,10 +4,6 @@
 
 A filter that scores every prompt before it reaches a large language model and returns **ALLOW**, **REVIEW** or **BLOCK**. The project compares three NLP classifiers, each with and without a decoding step, on prompt-injection attack types that never appear in the training data.
 
-MAAI902 Natural Language Processing and LLMs, Assessment Task 2
-Master of Applied Artificial Intelligence, University of Wollongong in Dubai
-Fida Ur Rehman Khan (1628665)
-
 ## Research question
 
 Which NLP approach best detects prompt-injection attacks of a type it never saw during training, and can a decoding pre-processing step close the gap?

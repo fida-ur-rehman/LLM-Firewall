@@ -92,8 +92,6 @@ LLM-Firewall/
 │   └── confusion_best.png
 ├── report/
 │   ├── LLM_Firewall_Report.pdf
-│   └── LLM_Firewall_Presentation.pdf
-├── LICENSE
 └── README.md
 ```
 
@@ -112,7 +110,3 @@ LLM-Firewall/
 - ProtectAI. (2024). *deberta-v3-base-prompt-injection-v2* [Model]. Hugging Face.
 - Reimers, N., & Gurevych, I. (2020). Making monolingual sentence embeddings multilingual using knowledge distillation. *Proceedings of EMNLP 2020*, 4512-4525.
 - Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: Smaller, faster, cheaper and lighter. *arXiv:1910.01108*.
-
-## License
-
-Code is released under the MIT License. The datasets and pretrained models keep their own licences; the main dataset is CC BY 4.0 and must be credited if reused.

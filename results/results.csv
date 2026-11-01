@@ -1,0 +1,9 @@
+model,input,accuracy,precision,recall,f1,FPR,TPR@1%FPR,unseen_recall,val_f1,external_f1,train_seconds
+TF-IDF + LR,raw,0.771,0.952,0.687,0.798,0.067,0.613,0.553,1.000,0.456,0.500
+TF-IDF + LR,decoded,0.931,0.964,0.930,0.947,0.067,0.855,0.957,1.000,0.456,0.500
+Embeddings + LR,raw,0.810,0.925,0.776,0.844,0.122,0.528,0.668,0.980,0.351,6.600
+Embeddings + LR,decoded,0.928,0.938,0.954,0.946,0.122,0.787,0.965,0.980,0.351,5.700
+DistilBERT (fine-tuned),raw,0.814,0.902,0.806,0.852,0.170,0.525,0.678,1.000,0.356,98.400
+DistilBERT (fine-tuned),decoded,0.936,0.919,0.990,0.953,0.170,0.894,0.984,1.000,0.356,91.400
+ProtectAI DeBERTa (reference),raw,0.936,0.985,0.916,0.950,0.026,0.903,0.996,0.938,0.537,10.700
+ProtectAI DeBERTa (reference),decoded,0.936,0.985,0.916,0.950,0.026,0.903,0.996,0.938,0.537,10.200
